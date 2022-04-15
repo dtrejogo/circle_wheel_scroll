@@ -531,7 +531,7 @@ class CircleFixedExtentScrollPhysics extends ScrollPhysics {
         SpringDescription.withDampingRatio(
           mass: 0.5,
           stiffness: 100.0,
-          ratio: 0.6,
+          ratio: 1.0,
         ),
         metrics.pixels,
         settlingPixels,
@@ -546,7 +546,7 @@ class CircleFixedExtentScrollPhysics extends ScrollPhysics {
       SpringDescription.withDampingRatio(
         mass: 0.5,
         stiffness: 100.0,
-        ratio: 0.9,
+        ratio: 1.0,
       ),
       metrics.pixels,
       settlingPixels,
