@@ -704,7 +704,7 @@ class _CircleListScrollViewState extends State<CircleListScrollView> {
       final FixedExtentScrollController controllerUpdate = scrollController;
       if (widget.new_value != _lastReportedItemIndex && widget.new_value != 0) {
         controllerUpdate.animateToItem(widget.new_value,
-            duration: Duration(milliseconds: 600), curve: Curves.fastOutSlowIn);
+            duration: Duration(milliseconds: 1000), curve: Curves.fastOutSlowIn);
       }
     }
 
